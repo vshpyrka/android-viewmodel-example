@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:theme="@style/Theme.AppCompat">
+
+        <activity
+            android:name="com.example.viewmodel.ViewModelActivities"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.viewmodel.ViewModelFactoryActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.viewmodel.ScopedViewModelActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.viewmodel.ViewModelSavedStateHandleActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>
