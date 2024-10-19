@@ -21,6 +21,7 @@ class ScopedViewModelActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val binding = ActivityViewModelScopedBinding.inflate(layoutInflater)
+        binding.root.applyWindowInsets()
         setContentView(binding.root)
     }
 }

@@ -10,6 +10,7 @@ class ViewModelActivities : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val binding = ActivityViewModelsBinding.inflate(layoutInflater)
+        binding.root.applyWindowInsets()
         setContentView(binding.root)
 
         binding.viewModelFactory.setOnClickListener {

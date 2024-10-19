@@ -24,6 +24,7 @@ class ViewModelSavedStateHandleActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val binding = ActivityViewModelSavedStateHandleBinding.inflate(layoutInflater)
+        binding.root.applyWindowInsets()
         setContentView(binding.root)
 
         binding.editText.doAfterTextChanged {
